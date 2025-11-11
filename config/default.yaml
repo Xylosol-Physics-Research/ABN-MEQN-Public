@@ -1,0 +1,20 @@
+# ABN-MEQN 系统配置
+system:
+  hardware_nodes: 81
+  dimensions: 4
+  order: 3
+  
+quantum:
+  use_magnetoelectric: true
+  coupling_strength: 0.5
+  topological_phase: true
+  
+simulation:
+  time_step: 0.1
+  max_iterations: 1000
+  convergence_threshold: 1e-6
+  
+visualization:
+  style: "science"
+  color_map: "viridis"
+  save_format: "png"
